@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{97DD9C73-B940-404E-A0DB-572F58FC4295}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{74715510-7598-4319-8E12-E54584B982F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{DCF749B6-CA38-4AC8-B767-557D5C15371F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateToken.Business", "TemplateToken.Business\TemplateToken.Business.csproj", "{D210303A-4F9F-454A-BCE1-03FD96ACD9FF}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TemplateToken.Database", "TemplateToken.Database\TemplateToken.Database.sqlproj", "{4A06DA03-D940-4FF8-B21E-4C67F24A5652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateToken.EFRepository", "TemplateToken.EFRepository\TemplateToken.EFRepository.csproj", "{822BD935-C7F3-4FDE-8A7E-EF7D65390AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateToken.Services", "TemplateToken.Services\TemplateToken.Services.csproj", "{D46BBBB1-3457-4BD1-A3AC-210F39D983F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateToken.ServicesHost", "TemplateToken.ServicesHost\TemplateToken.ServicesHost.csproj", "{9AD878AB-DC68-4A39-82E0-C4F35B7A8738}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{81281564-5A77-4B3E-AB72-438461E0AEF4}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D210303A-4F9F-454A-BCE1-03FD96ACD9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D210303A-4F9F-454A-BCE1-03FD96ACD9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D210303A-4F9F-454A-BCE1-03FD96ACD9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D210303A-4F9F-454A-BCE1-03FD96ACD9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A06DA03-D940-4FF8-B21E-4C67F24A5652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A06DA03-D940-4FF8-B21E-4C67F24A5652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A06DA03-D940-4FF8-B21E-4C67F24A5652}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4A06DA03-D940-4FF8-B21E-4C67F24A5652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A06DA03-D940-4FF8-B21E-4C67F24A5652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A06DA03-D940-4FF8-B21E-4C67F24A5652}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{822BD935-C7F3-4FDE-8A7E-EF7D65390AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822BD935-C7F3-4FDE-8A7E-EF7D65390AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822BD935-C7F3-4FDE-8A7E-EF7D65390AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822BD935-C7F3-4FDE-8A7E-EF7D65390AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D46BBBB1-3457-4BD1-A3AC-210F39D983F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46BBBB1-3457-4BD1-A3AC-210F39D983F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46BBBB1-3457-4BD1-A3AC-210F39D983F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46BBBB1-3457-4BD1-A3AC-210F39D983F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD878AB-DC68-4A39-82E0-C4F35B7A8738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD878AB-DC68-4A39-82E0-C4F35B7A8738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD878AB-DC68-4A39-82E0-C4F35B7A8738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD878AB-DC68-4A39-82E0-C4F35B7A8738}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D210303A-4F9F-454A-BCE1-03FD96ACD9FF} = {97DD9C73-B940-404E-A0DB-572F58FC4295}
+		{4A06DA03-D940-4FF8-B21E-4C67F24A5652} = {74715510-7598-4319-8E12-E54584B982F9}
+		{822BD935-C7F3-4FDE-8A7E-EF7D65390AAE} = {74715510-7598-4319-8E12-E54584B982F9}
+		{D46BBBB1-3457-4BD1-A3AC-210F39D983F7} = {DCF749B6-CA38-4AC8-B767-557D5C15371F}
+		{9AD878AB-DC68-4A39-82E0-C4F35B7A8738} = {DCF749B6-CA38-4AC8-B767-557D5C15371F}
+	EndGlobalSection
+EndGlobal
